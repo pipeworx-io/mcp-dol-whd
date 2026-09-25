@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-dol-whd",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DOL Wage & Hour Division — concluded enforcement cases",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-e4f1565408c45692ed34ccdba7e5ea8e54cda565886b193c80d496060a1461ef",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-2251c9982be56309a486acdc769b29a073cc5ff3ced00b72d058af3d36583043",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }

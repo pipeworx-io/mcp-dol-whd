@@ -5,7 +5,7 @@ FY2005 — wage theft, back wages, minimum-wage and overtime findings, child lab
 H-1B and H-2A violations. `osha` already covers the OSHA slice of DOL enforcement;
 this is the sibling nobody could query.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1679+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1683+ live data sources.
 
 Promoted out of `_incubator` on 2026-09-01 (fleet #1052) once Bruce supplied
 the key. Built originally against a 10-row catalog preview under fleet #651,
@@ -183,7 +183,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1679+ data sources. The
+Both URLs reach the same gateway and the same 1683+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
