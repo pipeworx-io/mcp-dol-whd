@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-dol-whd",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "DOL Wage & Hour Division — concluded enforcement cases",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-dol-whd": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "dol-whd"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-dol-whd.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/dol-whd",
   "pipeworx": {
-    "sourceHash": "v1-1e3af91677a8623942807544f7f1732e3d00565ba2f5e3e7ee7e9159ef5228da",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "dol-whd",
+    "gatewaySlug": "dol-whd",
+    "sourceHash": "v1-3ca5411fde88e7be069fa94f6b73b400f2c093b880e7961fd935750ec5458e6e",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
